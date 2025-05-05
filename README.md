@@ -74,7 +74,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force;[System.Net.ServicePointManager
 ### Step 2. Clone and install
 ```
 git clone https://github.com/hilalmufti/netrock.git
-cd catsay
+cd netrock 
 cabal update
 cabal build
 cabal install
